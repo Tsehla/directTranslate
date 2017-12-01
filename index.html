@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>direct-translate</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  tsehla</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<!--Main Div-->
+<div id="mainContainer" class="mainContainer">
+  <!-- User write input text-->
+  <div id="userInput" class="userInput">
+    <input id="userInputBox" class="userInputBox" type="search" placeHolder="type Here" onsearch="keyPressed()"></input>
+  
+</div>
+    
+  <div>
+      
+  <!--program out put-->
+  <div id="programOutput" class="programOutput">
+    <!--language detect -->
+    <div id="language" class="language"></div><br />
+    <div id="programOutputText" class="programOutputText">
+      Please read help to search properly. OR contribute your direct translations <a href=# onclick='addNewDirectTranslate()' > HERE</a> 
+      
+    </div>
+    
+      </div>
+  
+</div></div>
+  
+<!-- data entry --->
+  
+  <div id="dataEntryConainerMain" class="dataEntryConainerMain" >
+    
+ <div class="dataEntryConainerMainContent">
+   <div class="dataEntryConainerMainContentText">
+     Input you text both in english and language of you choice to translate; Please type all laguages in the right blocks.
+     
+   </div>
+   
+   <input type="text" id="firstTextBox" class="firstTextBox" value="English Text only here" >
+   <input type="text" id="firstTextBoxSubject" class="firstTextBoxSubject" value="above language Subject"></input>
+   <input type="text" id="firstTextBoxVerb" class="firstTextBoxVerb" value="above language Verb">
+    <div class="liner"></div>
+    
+   <div class="dataEntryConainerMainContentText">
+     Input you text both in english and language of you choice to translate; Please type all laguages in the right blocks.
+     
+   </div>
+    
+    <input type="text" id="secondTextBox" class="secondTextBox" value="Language to direct translate here" >
+   <input type="text" id="secondTextBoxSubject" class="secondTextBoxSubject" value="above language Subject"></input>
+
+   <input type="text" id="secondTextBoxVerb" class="secondTextBoxVerb" value="above language Verb">
+
+    <div class="liner"></div>  
+
+   <button id="textSubmitBoxButton" class="textSubmitBoxButton btn btn-primary"> Proceed</button>
+    
+    </div> 
+    
+  </div>
+
+<!-- fixed button to  menu page --->
+
+<!-- fixed button to  menu page -->
+
+<div class="fixedButton">
+  
+  <button id="fixedButtonButton" class="fixedButtonButton"> Menu</button>
+</div>
+
+<!-- help message -->
+
+<div id="help" class="help">
+
+<div id="helpData" class="helpData">
+<div class="helpText" id="helpText">
+David said, if I were to speak with you  Sotho, this conversation would have went on differently, Next week you should start teaching me Sesotho....
+
+So I went on a journey, meditated under a banana tree so I can take in the scent, hezitated to add extra self rewarding sugar tea spoons on my tea, that was just a fleeing thought.
+
+<h1>
+Direct translations 
+
+</h1>
+
+Are translations <emphasize style="color:red"> that mean the same action or refer to same thing </emphasize> nothing fancy here..
+
+<h2> 
+  
+  Examples
+  </h2>
+Words mean the same thing to the people who speak the language...
+This are in Sesotho to English, they translate both ways
+
+<ul>  
+    <li> hae : home</li>
+    <li> koloi : car </li>
+    <li> ke a mosebetsing : I'm going to work </li>
+    <li> ke e thuta programming : I'm learning programming</li>
+    </ul>
+
+Languages are complex, one thing they have in common is there are word or saying referring to same common action or object.
+  
+  See data base of captured words here <button onclick="lindelani()">DataBase</button>
+</div>
+
+
+</div>
+
+</div>
+
+<!-- help button -->
+
+<div id="helpButton" class="helpButton">
+
+<button id="helpButtonButton"  class="helpButtonButton" onclick="helpButton()">
+
+Help
+
+</button>
+
+
+</div>
+
+<!-- start page intro -->
+
+<div id="startPageIntro" class="starPageIntro">
+ 
+  
+  <div id="startPageIntroContent" class="startPageIntroContent">
+    You can only search for this words until LINDELANI creates a database so more words can be added:
+    
+    
+    <div id="dataBase" class="dataBase">arrayShow(sothoToEnglish) </div>
+    
+    
+    
+    send LINDELANI email to motivate him <button onclick="email()">Email</button>
+    
+    
+    
+    
+    
+    
+  </div>  
+  
+
+</div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

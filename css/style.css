@@ -1,0 +1,208 @@
+html{background-image:url('https://www.dropbox.com/s/nexu8q1zqio2yw9/chalkboard-517818_1920.jpg?raw=1');
+background-size:100% 880px;
+background-repeat:no-repeat;
+ background-color:#030303;
+  height:auto;
+  width:100%
+}
+*{/*border:1px solid red;*/
+ box-sizing:border-box;
+content:"";
+clear:both;
+}
+.mainContainer{
+  height:100%;
+  width:100%;
+}
+.userInput{
+  height:175px;
+  width:100%;
+}
+.programOutput{
+  height:510px;
+  width:100%;
+  
+}
+.userInputBox{
+  
+  width:100%;
+  height:100%;
+  color:white;
+  font-size:20px;
+  text-align:center;
+  border:none;
+  background-color: inherit;
+}
+input::placeHolder{
+  color:white;
+  font-size:90px;
+}
+
+.programOutputText{
+  height:450px;
+  width:160;
+  color:white;
+  font-size:35px;
+  margin:20px 20px 20px 20px;
+   
+}
+.language{
+   height:45px;
+  width:160;
+  color:white;
+  font-size:35px;
+  margin:20px 20px 20px 20px;
+}
+.languageText{
+   height:45px;
+  width:160;
+  color:white;
+  text-decoration:underline;
+}
+
+.table{
+  display:table;
+  
+}
+.cell:{
+  
+  display:table-cell;
+}
+
+
+/*data entry*/
+dataEntryConainerMain{
+ 
+  height:880px;
+  width:100%;
+  
+}
+
+.dataEntryConainerMainContent{
+  height:auto;
+  width:900px;
+  border:1px solid grey;
+  margin:3% 0 0 25%;
+ 
+  color:white;
+  
+}
+.firstTextBox{
+  width:100%;
+  height:100px;
+  margin:10px 0 5px 0;
+}
+
+
+.textSubmitBoxButton{
+  width:120px;
+  height:60px;
+  
+}
+.dataEntryConainerMainContentText{
+  width:auto;
+  height:auto;
+  margin:10px 0 5px 5px;
+  
+  
+}
+.firstTextBoxSubject{
+  
+  width:50%;
+  height:50px;
+  margin:10px 0 5px 0;
+}
+.firstTextBoxVerb{
+  width:50%;
+  height:50px;
+  margin:10px 0 5px 0;
+}
+.liner{
+  width:100%;
+  height:5px;
+ 
+}
+.secondTextBox{
+  width:100%;
+  height:100px;
+  margin:10px 0 5px 0;
+}
+
+.secondTextBoxSubject{
+  
+  width:50%;
+  height:50px;
+  margin:10px 0 5px 0;
+}
+.secondTextBoxVerb{
+  width:50%;
+  height:50px;
+  margin:10px 0 5px 0;
+}
+
+/*--- fixed button ---*/
+
+.fixedButton{
+  
+  position:fixed;
+  top: 0px;
+    left: 0px; 
+  
+}
+
+.fixedButtonButton{
+  
+  border:red solid 1px;
+}
+
+/*help*/
+
+
+.help{
+ 
+  height:inherit;
+  width:100%;
+  
+}
+
+.helpData{
+  height:90%;
+  width:80%;
+  border:1px solid grey;
+  margin:3% 10% 0 10%;
+ 
+  color:white;
+  
+}
+
+/* help button */
+
+.helpButton{
+  
+  position:fixed;
+  top: 0px;
+    right: 0px; 
+  
+}
+
+.helpButtonButton{
+  
+  border:blue solid 1px;
+}
+
+/* start page */
+.startPageIntro{
+  height:inherit;
+  width:100%;
+ 
+}
+
+.startPageIntroContent{
+  
+  height:50%;
+  width:30%;
+  border:1px solid grey;
+  margin:10% 10% 0 35%;
+ 
+  color:white;
+}
